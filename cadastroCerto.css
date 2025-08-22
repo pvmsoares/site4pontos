@@ -1,0 +1,103 @@
+.koulen-regular {
+    font-family: "Koulen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+* {
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: "Koulen", sans-serif;
+    background-color: beige;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+}
+
+
+#Alice {
+    background-color: #204942;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 180px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+.formulario-contato label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #f0f0f0;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+    color: white;
+    font-size: 14px;
+}
+
+.formulario-contato input::placeholder,
+.formulario-contato textarea::placeholder {
+    color: #7d1609;
+}
+
+button {
+    width: 100%;
+    background-color: moccasin;
+    color: black;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    color: bisque;
+    background-color: #7d1609;
+}
+
+.btn-voltar{padding: 10px 20px;
+    background: whitesmoke;
+    text-align: center;
+    border-radius: 15px;
+    font-family: "Koulen" , sans-serif;
+    color: black;
+    }
+    
+    .btn-voltar:hover{
+      background-color: bisque;
+      
+    }

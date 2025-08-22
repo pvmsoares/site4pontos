@@ -1,0 +1,144 @@
+video {
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+  
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+}
+
+main {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+
+.koulen-regular {
+  font-family: "Koulen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#nome {
+  height: 20%;
+
+  text-align: center;
+  font-size: 10rem;
+
+}
+
+header:hover {
+
+  background-color: beige;
+}
+
+
+
+
+
+#lupa {
+  display: flex;
+  fill: black;
+
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+}
+
+header>svg {
+  margin-left: 1%;
+
+}
+
+header>h1 {
+  margin-left: 25%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#botoes {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+
+}
+
+.button {
+  font-size: large;
+  font-family: "koulen", "sans-serif ";
+  text-decoration: none;
+  color: beige;
+  border: 1px solid whitesmoke;
+  border-radius: 40px;
+  display: flex;
+  height: 100px;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover{
+background-color: whitesmoke;
+color: black;
+}
+
+#dropdown-click li {
+  background-color: beige;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#drop-click { position: relative;
+  margin-left: 30vh;}
+
+#dropdown-click{ position: absolute;
+width: 100%;
+list-style: none;
+padding: 0;
+  opacity: 0;
+color: black;
+  top: 50px;
+display: flex;
+flex-direction: column;
+height: 279px;
+justify-content: space-between;
+margin-top: 3px;
+  z-index: -10;
+  transition: 0.5s}
+/*checkbox hidden*/
+#check { position: absolute;
+width: 100%;
+height:100%;
+right: 0;
+opacity: 0;
+}
+
+#check:checked~#dropdown-click{opacity: 1;
+z-index: 10;
+  top: 60px; 
+width: 40vh;
+}
+
+#listinha{
+  text-decoration: none;
+  color: black;
+}
+
+#ponto {list-style-type: none;}
